@@ -26,9 +26,14 @@ body {
   color: #fff;
 }
 
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 .button {
   display: inline-block;
-  padding: 10px 20px;
   font-size: 18px;
   text-align: center;
   text-decoration: none;
@@ -85,7 +90,6 @@ button {
 
 button:hover {
   background-color: #0d8390;
-  /* background-color: #555; */
 }
 
 
@@ -115,7 +119,11 @@ button:hover {
     position: absolute;
     gap: 50px;
   }
-
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
   .completed {
     width: 12rem;
     margin-top: -58rem;
@@ -153,6 +161,11 @@ button:hover {
     background: red;
     border: 2px solid #350436;
   }
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
   button{
     font-size: 16px;
   }
@@ -168,7 +181,7 @@ button:hover {
   }
   .completed {
     margin-left: -22px;
-    margin-top: -55rem;
+    margin-top: -51rem;
   }
   .reset button {
     padding: 15px 25px;
