@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./tasbih.css";
 function Tasbih() {
   const [count, setCount] = useState(0);
-  const [countRes, setCountRes] = useState(100);
+  const [countRes, setCountRes] = useState(0);
 
   const subHanallah = () => {
     setCount((count) => count + 1);
