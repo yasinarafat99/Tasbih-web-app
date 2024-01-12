@@ -21,7 +21,7 @@ function Tasbih() {
       setCountRes((countRes) => countRes + 1);
       setCount((count) => count + 1);
     } else {
-      alert("Type Is wrong");
+      alert("Say & Click Subhanallah");
     }
 
     if (countRes >= 66) {
@@ -37,7 +37,7 @@ function Tasbih() {
       setCountRes((countRes) => countRes + 1);
       setCount((count) => count + 1);
     } else {
-      alert("Type Is wrong");
+      alert("Say & Click Alhamduliilah");
     }
     if (countRes >= 100) {
       setCount(0);
